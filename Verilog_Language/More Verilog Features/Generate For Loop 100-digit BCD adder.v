@@ -12,7 +12,9 @@ module top_module(
         for (i=4; i<400; i=i+4) begin: bcd_adder_instances
             bcd_fadd bcd_adder(a[i+3:i], b[i+3:i], cout_wires[i/4-1],cout_wires[i/4],sum[i+3:i]);
         end
-    endgenerate
+    endgenerate  
+    
+    //generate block ends here
     
     assign cout = cout_wires[99];
 endmodule

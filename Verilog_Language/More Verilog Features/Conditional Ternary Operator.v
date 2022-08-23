@@ -8,4 +8,6 @@ module top_module (
     assign intermediate_result2 = (c < d) ? c : d;
     assign min 					= (intermediate_result1 < intermediate_result2) ? intermediate_result1 : intermediate_result2;
 
+
+
 endmodule

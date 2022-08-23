@@ -9,4 +9,6 @@ module top_module(
     assign out_or  = | in[99:0];
     assign out_xor = ^ in[99:0];
     
+
+    
 endmodule

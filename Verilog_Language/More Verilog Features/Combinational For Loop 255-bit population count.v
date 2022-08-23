@@ -2,6 +2,8 @@ module top_module(
     input [254:0] in,
     output [7:0] out );
 
+
+
     // $bits(in)
     // In case the vector width is not provided in the problem statement, 
     // We use the above ommand to calculate the vector width.

@@ -3,6 +3,7 @@ module top_module(
     output [99:0] out
 );
 
+
     reg [99:0]out_temp;
     always @ (*)
         begin

@@ -22,6 +22,8 @@ module top_module(
                 
 endmodule
 
+
+
 // Module for full Adder
 module full_adder(
     input a, b,
